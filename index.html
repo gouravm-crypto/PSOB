@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CQ Dashboard · Post Sale - Outbound · September 2026</title>
+<title>CQ Dashboard · Post Sale - Outbound · October 2026</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 /* ── THEME VARIABLES ── */
@@ -279,6 +279,11 @@ section+section{border-top:1px solid var(--section-bdr);}
 .rank-list div{display:flex;justify-content:center;align-items:center;gap:12px;font-size:13px;}
 .chart-wide{grid-column:1 / -1;}
 @media(max-width:760px){.chart-grid,.insight-grid,.insight-grid-2{grid-template-columns:1fr;}.hdr{padding:0 16px;}.hdr-title,.hdr-badge{display:none;}.main{padding:0 16px 60px;}.hero-stats{flex-wrap:wrap;}.score-table thead th:nth-child(3),.score-table tbody td:nth-child(3),.score-table thead th:nth-child(6),.score-table tbody td:nth-child(6){display:none;}.footer{flex-direction:column;text-align:center;}.ft-right{text-align:center;}}
+.new-badge{display:inline-block;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:2px 7px;border-radius:6px;background:rgba(8,145,178,0.12);color:#0891b2;border:1px solid #a5f3fc;margin-left:6px;}
+.note-banner{display:flex;gap:14px;align-items:flex-start;background:rgba(245,158,11,0.10);border:1px solid rgba(245,158,11,0.45);border-left:4px solid #d97706;border-radius:12px;padding:14px 18px;margin-bottom:18px;}
+.note-icon{font-size:20px;line-height:1.2;}.note-label{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#d97706;margin-bottom:4px;}.note-text{font-size:13px;line-height:1.6;color:var(--txt2);}
+.diwali-banner{display:flex;gap:16px;align-items:center;background:linear-gradient(135deg,#2a1205,#4a1d06);border:1.5px solid #f59e0b;border-radius:16px;padding:22px 24px;margin-top:8px;box-shadow:0 0 28px rgba(245,158,11,0.18);}
+.diwali-icon{font-size:38px;line-height:1;}.diwali-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#fbbf24;margin-bottom:6px;}.diwali-text{font-size:14px;line-height:1.65;color:rgba(255,255,255,0.88);}
 </style>
 </head>
 <body>
@@ -286,8 +291,8 @@ section+section{border-top:1px solid var(--section-bdr);}
   <img src="logo_icon.png" class="hdr-logo" alt="CaratLane" onerror="this.style.display='none'">
   <div class="hdr-brand"><div class="hdr-name">CaratLane</div><div class="hdr-tata">A Tata Product</div></div>
   <div class="hdr-sep"></div>
-  <div class="hdr-title">CQ Dashboard · Post Sale - Outbound · September 2026</div>
-  <div class="hdr-actions"><span class="hdr-badge">September 2026</span><button class="dm-toggle" id="dmBtn" onclick="toggleDark()">🌙 Dark Mode</button></div>
+  <div class="hdr-title">CQ Dashboard · Post Sale - Outbound · October 2026</div>
+  <div class="hdr-actions"><span class="hdr-badge">October 2026</span><button class="dm-toggle" id="dmBtn" onclick="toggleDark()">🌙 Dark Mode</button></div>
 </header>
 
 <div class="hero">
@@ -295,38 +300,43 @@ section+section{border-top:1px solid var(--section-bdr);}
   <div class="hero-inner">
     <div class="hero-eyebrow">Quality Assurance · Post Sale - Outbound</div>
     <div class="hero-title">CQ <em>Dashboard</em></div>
-    <div class="hero-date">September 2026</div>
-    <div class="hero-sub">202 audits &nbsp;·&nbsp; 8 agents &nbsp;·&nbsp; Audited by Vignesh Y, Vidhi V, Gourav M &amp; Dipannita</div>
+    <div class="hero-date">October 2026</div>
+    <div class="hero-sub">90 audits &nbsp;·&nbsp; 8 agents &nbsp;·&nbsp; Audited by Gourav M, Vignesh Y &amp; Dipannita</div>
     <div class="hero-stats">
-      <div class="hs"><div class="hs-val white" data-countup="202">202</div><div class="hs-lbl">Audits</div></div>
-      <div class="hs"><div class="hs-val gold" data-countup="90" data-suffix="%">90%</div><div class="hs-lbl">Team CQ</div></div>
+      <div class="hs"><div class="hs-val white" data-countup="90">90</div><div class="hs-lbl">Audits</div></div>
+      <div class="hs"><div class="hs-val gold" data-countup="95" data-suffix="%">95%</div><div class="hs-lbl">Team CQ</div></div>
       <div class="hs"><div class="hs-val white">95%</div><div class="hs-lbl">Target</div></div>
-      <div class="hs"><div class="hs-val red" data-countup="2">2</div><div class="hs-lbl">NCF</div></div>
+      <div class="hs"><div class="hs-val red" data-countup="0">0</div><div class="hs-lbl">NCF</div></div>
     </div>
-    <div class="period-note">Audit cycle: 26 Aug – 25 Sep 2026</div>
+    <div class="period-note">Audit cycle: 26 Sep – 25 Oct 2026</div>
   </div>
 </div>
 
 <div class="main">
   <section>
     <div class="sec-ey">Performance Overview</div>
-    <div class="sec-ttl">Agent CQ Scores, September 2026</div>
+    <div class="sec-ttl">Agent CQ Scores, October 2026</div>
     <div class="sec-sub">Click any agent row to view their full audit report, including scores, case feedback, AOIs, and improvement areas.</div>
+    <div class="note-banner"><div class="note-icon">ℹ️</div><div><div class="note-label">Please Note: Seasonal Month</div><div class="note-text">October was a seasonal month, so audit counts are lower than usual and auditors gave significant benefit of the doubt (BOD) on borderline cases. Please read this month's scores with that in mind: they reflect a lighter, more lenient audit cycle, not a new baseline.</div></div></div>
     <div class="target-banner">
       <div class="tb-icon">🎯</div>
       <div class="tb-lbl">Monthly Targets</div>
-      <div class="tb-txt">Individual target is <strong style="color:var(--gold)">85%</strong>. Team target is <strong style="color:#f87171">95%</strong>. The team landed at 90%, with 7 of 8 agents at or above the individual target and only 2 NCFs across 202 audits. Three agents are already at the 95% team target. The remaining gap is almost entirely Soft Skills: missed empathy and missing positive/ownership phrases account for 55 of the 125 errors.</div>
+      <div class="tb-txt">Individual target is <strong style="color:var(--gold)">85%</strong>. Team target is <strong style="color:#f87171">95%</strong>. Team CQ hit 95%, meeting the team target and up from 90% in September. All 8 agents are above the individual target, 6 are at or above 95%, and there were zero NCFs. Errors per audit halved, from 0.6 to 0.3.</div>
       <div class="tb-right">
-        <div class="tb-stat"><div class="tb-num gold">90%</div><div class="tb-slbl">Team Avg</div></div>
-        <div class="tb-stat"><div class="tb-num green">7</div><div class="tb-slbl">At/Above Indiv Target</div></div>
-        <div class="tb-stat"><div class="tb-num red">2</div><div class="tb-slbl">NCF Total</div></div>
+        <div class="tb-stat"><div class="tb-num gold">95%</div><div class="tb-slbl">Team Avg</div></div>
+        <div class="tb-stat"><div class="tb-num green">8</div><div class="tb-slbl">At/Above Indiv Target</div></div>
+        <div class="tb-stat"><div class="tb-num red">0</div><div class="tb-slbl">NCF Total</div></div>
       </div>
     </div>
     <div class="nj-banner" style="border-color:#0d9488;">
-      <div class="nj-av" style="background:#0d9488;">KJ</div>
-      <div class="nj-body"><div class="nj-label" style="color:#0d9488;">⭐ Top Performer</div><div class="nj-name">Khushi_J</div><div class="nj-text">Khushi_J leads the team with <strong style="color:#4ade80">97% CQ, zero NCFs and just 6 errors</strong> in 25 audits. Sanjana_J and Akbar_M are right behind at 95%, both at the team target. Outstanding work from all three! 👏</div></div>
+      <div class="nj-av" style="background:#7c3aed;">SJ</div>
+      <div class="nj-body"><div class="nj-label" style="color:#0d9488;">⭐ Stars of the Month</div><div class="nj-name">Sanjana_J &amp; Khushi_J</div><div class="nj-text">Sanjana_J and Khushi_J both scored a perfect <strong style="color:#4ade80">100% CQ with zero errors</strong> across 12 audits each. A flawless month from both! 🎉</div></div>
     </div>
-    <div class="call-banner"><div class="call-icon">🎯</div><div class="call-body"><div class="call-label">Focus Area Going Into October</div><div class="call-text">Both NCFs came from acting on part of the picture: a cancellation raised for only one of two SKUs, and a 24-hour delivery commitment given without checking the ongoing email or ticket. Before closing an outbound call, confirm every SKU and every open request is covered. Retention is the other opportunity: 9 cancellation calls went through without a genuine retention pitch.</div></div></div>
+    <div class="nj-banner" style="border-color:#c8a846;">
+      <div class="nj-av" style="background:#ea580c;">SA</div>
+      <div class="nj-body"><div class="nj-label" style="color:#c8a846;">🚀 Turnaround of the Month</div><div class="nj-name">Surbhi_A</div><div class="nj-text">Surbhi_A went from <strong style="color:#f87171">82% with 1 NCF</strong> in September to <strong style="color:#4ade80">95% with zero NCFs</strong>, a 13-point climb to the team target. Aqsa_A (88% → 96%) and Ankita_A (86% → 92%) also moved up. 👏</div></div>
+    </div>
+    <div class="call-banner"><div class="call-icon">🎯</div><div class="call-body"><div class="call-label">Focus Area Going Into November</div><div class="call-text">Sound like you care. With zero NCFs, the remaining gaps are almost all in delivery: monotonous or dragging voice was flagged 8 times and missed empathy 6 times, making up most of this month's 12 Soft Skills errors. Bring energy into your voice and acknowledge the customer's situation before moving to the process.</div></div></div>
 
     <div style="overflow-x:auto;">
     <table class="score-table">
@@ -335,78 +345,78 @@ section+section{border-top:1px solid var(--section-bdr);}
         <tr onclick="openModal('khushij')">
           <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">1</td>
           <td><div class="agent-cell"><div class="agent-av" style="background:#0d9488;">KJ</div>
-            <div><div class="agent-nm">Khushi_J<span class="improved-badge">⭐ Star</span></div><div class="agent-hint">25 audits · 0 NCF</div></div></div></td>
-          <td>25</td>
+            <div><div class="agent-nm">Khushi_J<span class="improved-badge">⭐ Star</span></div><div class="agent-hint">12 audits · 0 NCF</div></div></div></td>
+          <td>12</td>
           <td><span class="ncf-badge">0</span></td>
-          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" data-width="97"></div></div><span class="pct c-green">97%</span></div></td>
+          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" data-width="100"></div></div><span class="pct c-green">100%</span></div></td>
           <td><span class="ti ti-above">★ At team target</span></td>
         </tr>
         <tr onclick="openModal('sanjanaj')">
           <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">2</td>
           <td><div class="agent-cell"><div class="agent-av" style="background:#7c3aed;">SJ</div>
-            <div><div class="agent-nm">Sanjana_J</div><div class="agent-hint">27 audits · 0 NCF</div></div></div></td>
-          <td>27</td>
+            <div><div class="agent-nm">Sanjana_J<span class="improved-badge">⭐ Star</span></div><div class="agent-hint">12 audits · 0 NCF</div></div></div></td>
+          <td>12</td>
           <td><span class="ncf-badge">0</span></td>
-          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" data-width="95"></div></div><span class="pct c-green">95%</span></div></td>
-          <td><span class="ti ti-above">★ At team target</span></td>
-        </tr>
-        <tr onclick="openModal('akbarm')">
-          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">3</td>
-          <td><div class="agent-cell"><div class="agent-av" style="background:#2563eb;">AM</div>
-            <div><div class="agent-nm">Akbar_M</div><div class="agent-hint">25 audits · 0 NCF</div></div></div></td>
-          <td>25</td>
-          <td><span class="ncf-badge">0</span></td>
-          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" data-width="95"></div></div><span class="pct c-green">95%</span></div></td>
+          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" data-width="100"></div></div><span class="pct c-green">100%</span></div></td>
           <td><span class="ti ti-above">★ At team target</span></td>
         </tr>
         <tr onclick="openModal('dineshsr')">
-          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">4</td>
+          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">3</td>
           <td><div class="agent-cell"><div class="agent-av" style="background:#0891b2;">DS</div>
-            <div><div class="agent-nm">Dinesh_Sr</div><div class="agent-hint">25 audits · 0 NCF</div></div></div></td>
-          <td>25</td>
+            <div><div class="agent-nm">Dinesh_Sr<span class="improved-badge">↑ Improved</span></div><div class="agent-hint">12 audits · 0 NCF</div></div></div></td>
+          <td>12</td>
           <td><span class="ncf-badge">0</span></td>
-          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-teal" data-width="94"></div></div><span class="pct c-teal">94%</span></div></td>
-          <td><span class="ti ti-above">✓ Above target</span></td>
+          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" data-width="97"></div></div><span class="pct c-green">97%</span></div></td>
+          <td><span class="ti ti-above">★ At team target</span></td>
         </tr>
         <tr onclick="openModal('aqsaa')">
-          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">5</td>
+          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">4</td>
           <td><div class="agent-cell"><div class="agent-av" style="background:#b8860b;">AA</div>
-            <div><div class="agent-nm">Aqsa_A</div><div class="agent-hint">25 audits · 0 NCF</div></div></div></td>
-          <td>25</td>
+            <div><div class="agent-nm">Aqsa_A<span class="improved-badge">↑ Improved</span></div><div class="agent-hint">6 audits · 0 NCF</div></div></div></td>
+          <td>6</td>
           <td><span class="ncf-badge">0</span></td>
-          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-teal" data-width="88"></div></div><span class="pct c-teal">88%</span></div></td>
-          <td><span class="ti ti-above">✓ Above target</span></td>
+          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" data-width="96"></div></div><span class="pct c-green">96%</span></div></td>
+          <td><span class="ti ti-above">★ At team target</span></td>
+        </tr>
+        <tr onclick="openModal('akbarm')">
+          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">5</td>
+          <td><div class="agent-cell"><div class="agent-av" style="background:#2563eb;">AM</div>
+            <div><div class="agent-nm">Akbar_M</div><div class="agent-hint">12 audits · 0 NCF</div></div></div></td>
+          <td>12</td>
+          <td><span class="ncf-badge">0</span></td>
+          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" data-width="96"></div></div><span class="pct c-green">96%</span></div></td>
+          <td><span class="ti ti-above">★ At team target</span></td>
+        </tr>
+        <tr onclick="openModal('surbhia')">
+          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">6</td>
+          <td><div class="agent-cell"><div class="agent-av" style="background:#ea580c;">SA</div>
+            <div><div class="agent-nm">Surbhi_A<span class="improved-badge">↑ Improved</span></div><div class="agent-hint">12 audits · 0 NCF</div></div></div></td>
+          <td>12</td>
+          <td><span class="ncf-badge">0</span></td>
+          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" data-width="95"></div></div><span class="pct c-green">95%</span></div></td>
+          <td><span class="ti ti-above">★ At team target</span></td>
         </tr>
         <tr onclick="openModal('ankitaa')">
-          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">6</td>
+          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">7</td>
           <td><div class="agent-cell"><div class="agent-av" style="background:#db2777;">AA</div>
-            <div><div class="agent-nm">Ankita_A</div><div class="agent-hint">25 audits · 1 NCF</div></div></div></td>
-          <td>25</td>
-          <td><span class="ncf-badge ncf-warn">1</span></td>
-          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-teal" data-width="86"></div></div><span class="pct c-teal">86%</span></div></td>
+            <div><div class="agent-nm">Ankita_A<span class="improved-badge">↑ Improved</span></div><div class="agent-hint">12 audits · 0 NCF</div></div></div></td>
+          <td>12</td>
+          <td><span class="ncf-badge">0</span></td>
+          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-teal" data-width="92"></div></div><span class="pct c-teal">92%</span></div></td>
           <td><span class="ti ti-above">✓ Above target</span></td>
         </tr>
         <tr onclick="openModal('oindrillad')">
-          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">7</td>
+          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">8</td>
           <td><div class="agent-cell"><div class="agent-av" style="background:#16a34a;">OD</div>
-            <div><div class="agent-nm">Oindrilla_D</div><div class="agent-hint">25 audits · 0 NCF</div></div></div></td>
-          <td>25</td>
+            <div><div class="agent-nm">Oindrilla_D</div><div class="agent-hint">12 audits · 0 NCF</div></div></div></td>
+          <td>12</td>
           <td><span class="ncf-badge">0</span></td>
-          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-teal" data-width="85"></div></div><span class="pct c-teal">85%</span></div></td>
+          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-teal" data-width="87"></div></div><span class="pct c-teal">87%</span></div></td>
           <td><span class="ti ti-above">✓ Above target</span></td>
         </tr>
-        <tr onclick="openModal('surbhia')">
-          <td style="font-family:Georgia,serif;font-size:20px;font-weight:800;color:var(--gold);">8</td>
-          <td><div class="agent-cell"><div class="agent-av" style="background:#ea580c;">SA</div>
-            <div><div class="agent-nm">Surbhi_A</div><div class="agent-hint">25 audits · 1 NCF</div></div></div></td>
-          <td>25</td>
-          <td><span class="ncf-badge ncf-warn">1</span></td>
-          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-orange" data-width="82"></div></div><span class="pct c-orange">82%</span></div></td>
-          <td><span class="ti ti-below">Below target</span></td>
-        </tr>
-        <tr class="total-row"><td></td><td><span class="total-nm">Team Total</span></td><td>202</td>
-          <td><span class="ncf-badge ncf-warn">2</span></td>
-          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-gold" data-width="90"></div></div><span class="pct c-gold">90%</span></div></td><td></td></tr>
+        <tr class="total-row"><td></td><td><span class="total-nm">Team Total</span></td><td>90</td>
+          <td><span class="ncf-badge">0</span></td>
+          <td><div class="bar-cell"><div class="bar-track"><div class="bar-fill bar-gold" data-width="95"></div></div><span class="pct c-gold">95%</span></div></td><td></td></tr>
       </tbody>
     </table>
     </div>
@@ -415,20 +425,20 @@ section+section{border-top:1px solid var(--section-bdr);}
   <section>
     <div class="sec-ey">Key Insights</div>
     <div class="sec-ttl">Month at a Glance</div>
-    <div class="sec-sub">Notable patterns, wins, and focus areas from September 2026 audits.</div>
+    <div class="sec-sub">Notable patterns, wins, and focus areas from October 2026 audits.</div>
     <div class="insight-grid">
-      <div class="ic green"><div class="ic-label">🏆 Star of the Month</div><div class="ic-val green">97%</div><div class="ic-sub"><strong>Khushi_J</strong>, highest CQ with zero NCFs and the fewest errors on the team. 🎉</div></div>
-      <div class="ic teal"><div class="ic-label">🥈 At Team Target</div><div class="ic-val teal">95%</div><div class="ic-sub"><strong>Sanjana_J</strong> (27 audits) and <strong>Akbar_M</strong> both hit the 95% team target. <strong>Dinesh_Sr</strong> follows closely at 94%.</div></div>
-      <div class="ic red"><div class="ic-label">⚠️ NCF Count</div><div class="ic-val red">2</div><div class="ic-sub"><strong>Ankita_A (1)</strong> and <strong>Surbhi_A (1)</strong>: one partial cancellation and one delivery TAT given without checking the ongoing ticket.</div></div>
+      <div class="ic green"><div class="ic-label">🏆 Stars of the Month</div><div class="ic-val green">100%</div><div class="ic-sub"><strong>Sanjana_J</strong> and <strong>Khushi_J</strong>, both perfect with zero errors in 12 audits. 🎉</div></div>
+      <div class="ic teal"><div class="ic-label">🎯 At Team Target</div><div class="ic-val teal">6 of 8</div><div class="ic-sub"><strong>Dinesh_Sr</strong> 97%, <strong>Aqsa_A</strong> 96%, <strong>Akbar_M</strong> 96% and <strong>Surbhi_A</strong> 95% joined the two stars at or above 95%.</div></div>
+      <div class="ic green"><div class="ic-label">✅ NCF Count</div><div class="ic-val green">0</div><div class="ic-sub">Zero NCFs this month, down from 2 in September. Every SKU and open request was covered. 👏</div></div>
     </div>
     <div class="insight-grid">
-      <div class="ic orange"><div class="ic-label">🔴 Top Error Parameter</div><div class="ic-val orange">72</div><div class="ic-sub"><strong>Soft Skills</strong>: missed empathy (30) and missing positive/ownership phrases (25). Tone (9) and monotonous delivery (7) follow.</div></div>
-      <div class="ic purple"><div class="ic-label">🔁 Retention Missed</div><div class="ic-val purple">9</div><div class="ic-sub">Cancellation calls closed without a retention attempt: <strong>Aqsa_A (3)</strong>, <strong>Surbhi_A, Oindrilla_D, Dinesh_Sr (2 each)</strong>. Pitch an alternative or exchange before processing.</div></div>
-      <div class="ic blue"><div class="ic-label">📉 Needs Focus</div><div class="ic-val blue">82%</div><div class="ic-sub"><strong>Surbhi_A</strong>, lowest on the team with 1 NCF and 24 errors. <strong>Oindrilla_D</strong> (85%) also logged 24 errors, with probing a clear gap.</div></div>
+      <div class="ic gold"><div class="ic-label">📈 Most Improved (vs September)</div><div class="ic-val gold">+13%</div><div class="ic-sub"><strong>Surbhi_A</strong> 82% → 95% and cleared her NCF. <strong>Aqsa_A</strong> 88% → 96% and <strong>Ankita_A</strong> 86% → 92%.</div></div>
+      <div class="ic orange"><div class="ic-label">🔴 Top Error Parameter</div><div class="ic-val orange">12</div><div class="ic-sub"><strong>Soft Skills</strong> led with 12 errors. Monotonous delivery (8) and missed empathy (6) drove most of them.</div></div>
+      <div class="ic purple"><div class="ic-label">🔁 Retention</div><div class="ic-val purple">1</div><div class="ic-sub">Missed retention was flagged just once this month, down from 9 in September. Keep pitching alternatives before every cancellation.</div></div>
     </div>
     <div class="insight-grid-2">
-      <div class="ic gold"><div class="ic-label">📌 Agents Ranked by Errors per Audit</div><div class="rank-list"><div><span style="font-weight:600;color:var(--txt)">Surbhi_A</span><span style="font-weight:700;color:var(--teal);">24 errors · 1.0/audit · 1 NCF</span></div><div><span style="font-weight:600;color:var(--txt)">Oindrilla_D</span><span style="font-weight:700;color:var(--teal);">24 errors · 1.0/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Ankita_A</span><span style="font-weight:700;color:var(--teal);">21 errors · 0.8/audit · 1 NCF</span></div><div><span style="font-weight:600;color:var(--txt)">Aqsa_A</span><span style="font-weight:700;color:var(--teal);">18 errors · 0.7/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Akbar_M</span><span style="font-weight:700;color:var(--green);">11 errors · 0.4/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Dinesh_Sr</span><span style="font-weight:700;color:var(--green);">11 errors · 0.4/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Sanjana_J</span><span style="font-weight:700;color:var(--green);">10 errors · 0.4/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Khushi_J</span><span style="font-weight:700;color:var(--green);">6 errors · 0.2/audit</span></div></div></div>
-      <div class="ic blue"><div class="ic-label">🎯 Biggest Gap Per Agent</div><div style="margin-top:10px;display:flex;flex-direction:column;gap:7px;text-align:center;"><div style="font-size:13px;color:var(--txt2);"><strong>Khushi_J</strong>: missed empathy (1), tagging missed / wrap timeout (1)</div><div style="font-size:13px;color:var(--txt2);"><strong>Sanjana_J</strong>: missing positive/ownership phrases (3), monotonous or dragging delivery (2)</div><div style="font-size:13px;color:var(--txt2);"><strong>Akbar_M</strong>: missed empathy (3), incomplete information (2)</div><div style="font-size:13px;color:var(--txt2);"><strong>Dinesh_Sr</strong>: incomplete information (3), missed empathy (2)</div><div style="font-size:13px;color:var(--txt2);"><strong>Aqsa_A</strong>: missed empathy (5), missing positive/ownership phrases (4)</div><div style="font-size:13px;color:var(--txt2);"><strong>Ankita_A</strong>: missing positive/ownership phrases (7), missed empathy (5)</div><div style="font-size:13px;color:var(--txt2);"><strong>Oindrilla_D</strong>: missed empathy (6), missing positive/ownership phrases (5)</div><div style="font-size:13px;color:var(--txt2);"><strong>Surbhi_A</strong>: missed empathy (7), monotonous or dragging delivery (4)</div></div></div>
+      <div class="ic gold"><div class="ic-label">📌 Agents Ranked by Errors per Audit</div><div class="rank-list"><div><span style="font-weight:600;color:var(--txt)">Oindrilla_D</span><span style="font-weight:700;color:var(--green);">8 errors · 0.7/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Ankita_A</span><span style="font-weight:700;color:var(--green);">6 errors · 0.5/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Surbhi_A</span><span style="font-weight:700;color:var(--green);">5 errors · 0.4/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Akbar_M</span><span style="font-weight:700;color:var(--green);">3 errors · 0.2/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Dinesh_Sr</span><span style="font-weight:700;color:var(--green);">3 errors · 0.2/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Aqsa_A</span><span style="font-weight:700;color:var(--green);">1 error · 0.2/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Khushi_J</span><span style="font-weight:700;color:var(--green);">0 errors · 0.0/audit</span></div><div><span style="font-weight:600;color:var(--txt)">Sanjana_J</span><span style="font-weight:700;color:var(--green);">0 errors · 0.0/audit</span></div></div></div>
+      <div class="ic blue"><div class="ic-label">🎯 Biggest Gap Per Agent</div><div style="margin-top:10px;display:flex;flex-direction:column;gap:7px;text-align:center;"><div style="font-size:13px;color:var(--txt2);"><strong>Khushi_J</strong>: no errors flagged 🎉</div><div style="font-size:13px;color:var(--txt2);"><strong>Sanjana_J</strong>: no errors flagged 🎉</div><div style="font-size:13px;color:var(--txt2);"><strong>Dinesh_Sr</strong>: monotonous or dragging delivery (2)</div><div style="font-size:13px;color:var(--txt2);"><strong>Aqsa_A</strong>: incomplete information (1)</div><div style="font-size:13px;color:var(--txt2);"><strong>Akbar_M</strong>: missed empathy (2), interrupting the customer (1)</div><div style="font-size:13px;color:var(--txt2);"><strong>Surbhi_A</strong>: interrupting the customer (1), missing positive/ownership phrases (1)</div><div style="font-size:13px;color:var(--txt2);"><strong>Ankita_A</strong>: monotonous or dragging delivery (6), lack of ownership on resolution (1)</div><div style="font-size:13px;color:var(--txt2);"><strong>Oindrilla_D</strong>: missed empathy (3), lack of ownership on resolution (2)</div></div></div>
     </div>
   </section>
 
@@ -438,68 +448,55 @@ section+section{border-top:1px solid var(--section-bdr);}
     <div class="sec-sub">Click a parameter header to expand. Click an agent row to open their full report with those cases highlighted.</div>
     <div class="param-block">
       <div class="param-hdr" onclick="toggleParam('ss')"><span class="param-hdr-name">Soft Skills</span>
-        <div class="param-hdr-right"><span class="param-hdr-count">72 errors</span><span class="param-arrow" id="parr-ss">▼</span></div></div>
+        <div class="param-hdr-right"><span class="param-hdr-count">12 errors</span><span class="param-arrow" id="parr-ss">▼</span></div></div>
       <div class="param-body" id="pbody-ss">
-        <div class="param-agent-row" onclick="openModal('oindrillad','ss')"><span class="par-name">Oindrilla_D</span><span class="par-count c5">15</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('ankitaa','ss')"><span class="par-name">Ankita_A</span><span class="par-count c5">13</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('surbhia','ss')"><span class="par-name">Surbhi_A</span><span class="par-count c5">13</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('aqsaa','ss')"><span class="par-name">Aqsa_A</span><span class="par-count c5">9</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('sanjanaj','ss')"><span class="par-name">Sanjana_J</span><span class="par-count c5">8</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('akbarm','ss')"><span class="par-name">Akbar_M</span><span class="par-count c5">6</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('khushij','ss')"><span class="par-name">Khushi_J</span><span class="par-count c4">4</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('dineshsr','ss')"><span class="par-name">Dinesh_Sr</span><span class="par-count c4">4</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('ankitaa','ss')"><span class="par-name">Ankita_A</span><span class="par-count c3">3</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('oindrillad','ss')"><span class="par-name">Oindrilla_D</span><span class="par-count c3">3</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('akbarm','ss')"><span class="par-name">Akbar_M</span><span class="par-count c2">2</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('dineshsr','ss')"><span class="par-name">Dinesh_Sr</span><span class="par-count c2">2</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('surbhia','ss')"><span class="par-name">Surbhi_A</span><span class="par-count c2">2</span><button class="par-btn">View Cases</button></div>
       </div>
     </div>
     <div class="param-block">
       <div class="param-hdr" onclick="toggleParam('sol')"><span class="param-hdr-name">Solution &amp; Recommendation</span>
-        <div class="param-hdr-right"><span class="param-hdr-count">25 errors</span><span class="param-arrow" id="parr-sol">▼</span></div></div>
+        <div class="param-hdr-right"><span class="param-hdr-count">6 errors</span><span class="param-arrow" id="parr-sol">▼</span></div></div>
       <div class="param-body" id="pbody-sol">
-        <div class="param-agent-row" onclick="openModal('dineshsr','sol')"><span class="par-name">Dinesh_Sr</span><span class="par-count c5">6</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('aqsaa','sol')"><span class="par-name">Aqsa_A</span><span class="par-count c5">6</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('surbhia','sol')"><span class="par-name">Surbhi_A</span><span class="par-count c5">6</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('akbarm','sol')"><span class="par-name">Akbar_M</span><span class="par-count c3">3</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('oindrillad','sol')"><span class="par-name">Oindrilla_D</span><span class="par-count c3">3</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('ankitaa','sol')"><span class="par-name">Ankita_A</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('ankitaa','sol')"><span class="par-name">Ankita_A</span><span class="par-count c2">2</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('oindrillad','sol')"><span class="par-name">Oindrilla_D</span><span class="par-count c2">2</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('akbarm','sol')"><span class="par-name">Akbar_M</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('aqsaa','sol')"><span class="par-name">Aqsa_A</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
       </div>
     </div>
     <div class="param-block">
       <div class="param-hdr" onclick="toggleParam('prob')"><span class="param-hdr-name">Probing</span>
-        <div class="param-hdr-right"><span class="param-hdr-count">15 errors</span><span class="param-arrow" id="parr-prob">▼</span></div></div>
+        <div class="param-hdr-right"><span class="param-hdr-count">4 errors</span><span class="param-arrow" id="parr-prob">▼</span></div></div>
       <div class="param-body" id="pbody-prob">
-        <div class="param-agent-row" onclick="openModal('oindrillad','prob')"><span class="par-name">Oindrilla_D</span><span class="par-count c5">6</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('ankitaa','prob')"><span class="par-name">Ankita_A</span><span class="par-count c4">4</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('akbarm','prob')"><span class="par-name">Akbar_M</span><span class="par-count c2">2</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('khushij','prob')"><span class="par-name">Khushi_J</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('ankitaa','prob')"><span class="par-name">Ankita_A</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
         <div class="param-agent-row" onclick="openModal('dineshsr','prob')"><span class="par-name">Dinesh_Sr</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('aqsaa','prob')"><span class="par-name">Aqsa_A</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('oindrillad','prob')"><span class="par-name">Oindrilla_D</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('surbhia','prob')"><span class="par-name">Surbhi_A</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
       </div>
     </div>
     <div class="param-block">
-      <div class="param-hdr" onclick="toggleParam('etq')"><span class="param-hdr-name">Call/Chat Etiquette</span>
-        <div class="param-hdr-right"><span class="param-hdr-count">6 errors</span><span class="param-arrow" id="parr-etq">▼</span></div></div>
+      <div class="param-hdr" onclick="toggleParam('etq')"><span class="param-hdr-name">Etiquette</span>
+        <div class="param-hdr-right"><span class="param-hdr-count">3 errors</span><span class="param-arrow" id="parr-etq">▼</span></div></div>
       <div class="param-body" id="pbody-etq">
-        <div class="param-agent-row" onclick="openModal('ankitaa','etq')"><span class="par-name">Ankita_A</span><span class="par-count c2">2</span><button class="par-btn">View Cases</button></div>
         <div class="param-agent-row" onclick="openModal('surbhia','etq')"><span class="par-name">Surbhi_A</span><span class="par-count c2">2</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('sanjanaj','etq')"><span class="par-name">Sanjana_J</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('aqsaa','etq')"><span class="par-name">Aqsa_A</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
-      </div>
-    </div>
-    <div class="param-block">
-      <div class="param-hdr" onclick="toggleParam('tag')"><span class="param-hdr-name">Tagging</span>
-        <div class="param-hdr-right"><span class="param-hdr-count">4 errors</span><span class="param-arrow" id="parr-tag">▼</span></div></div>
-      <div class="param-body" id="pbody-tag">
-        <div class="param-agent-row" onclick="openModal('khushij','tag')"><span class="par-name">Khushi_J</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('sanjanaj','tag')"><span class="par-name">Sanjana_J</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('ankitaa','tag')"><span class="par-name">Ankita_A</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('surbhia','tag')"><span class="par-name">Surbhi_A</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('oindrillad','etq')"><span class="par-name">Oindrilla_D</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
       </div>
     </div>
     <div class="param-block">
       <div class="param-hdr" onclick="toggleParam('fu')"><span class="param-hdr-name">Follow Up</span>
-        <div class="param-hdr-right"><span class="param-hdr-count">3 errors</span><span class="param-arrow" id="parr-fu">▼</span></div></div>
+        <div class="param-hdr-right"><span class="param-hdr-count">1 error</span><span class="param-arrow" id="parr-fu">▼</span></div></div>
       <div class="param-body" id="pbody-fu">
-        <div class="param-agent-row" onclick="openModal('surbhia','fu')"><span class="par-name">Surbhi_A</span><span class="par-count c2">2</span><button class="par-btn">View Cases</button></div>
-        <div class="param-agent-row" onclick="openModal('aqsaa','fu')"><span class="par-name">Aqsa_A</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
+        <div class="param-agent-row" onclick="openModal('oindrillad','fu')"><span class="par-name">Oindrilla_D</span><span class="par-count c1">1</span><button class="par-btn">View Cases</button></div>
+      </div>
+    </div>
+    <div class="param-block">
+      <div class="param-hdr" onclick="toggleParam('tag')"><span class="param-hdr-name">Tagging</span>
+        <div class="param-hdr-right"><span class="param-hdr-count">0 errors</span><span class="param-arrow" id="parr-tag">▼</span></div></div>
+      <div class="param-body" id="pbody-tag">
+        <div class="param-agent-row" style="cursor:default;"><span class="par-name">No tagging errors this month 🎉</span><span class="par-count" style="color:var(--green);">✓</span><span></span></div>
       </div>
     </div>
   </section>
@@ -515,11 +512,15 @@ section+section{border-top:1px solid var(--section-bdr);}
       <div class="heatmap-card"><div class="cc-title">Error Heatmap</div><div class="cc-sub">Agent by parameter breakdown, so you can quickly spot who struggles where</div><div id="heatmapContainer"></div></div>
     </div>
   </section>
+
+  <section>
+    <div class="diwali-banner"><div class="diwali-icon">🪔</div><div><div class="diwali-label">Up Next: Diwali Season</div><div class="diwali-text">Diwali season is coming up next month, our busiest and most special time of the year. Every customer who reaches out will be celebrating something, so let's carry this month's momentum into November and make every interaction count. Wishing you all the very best for the season ahead! 🪔✨</div></div></div>
+  </section>
 </div>
 
 <footer class="footer">
   <div class="ft-left"><img src="logo_full.png" class="ft-logo" alt="CaratLane" onerror="this.style.display='none'"><div><div class="ft-brand">CaratLane</div><div class="ft-tata">A Tata Product</div></div></div>
-  <div class="ft-right"><strong>CQ Dashboard, Post Sale - Outbound</strong><br>September 2026 · 202 Audits · 26 Aug – 25 Sep 2026<br>Auditors: <strong>Vignesh Y, Vidhi V, Gourav M &amp; Dipannita</strong></div>
+  <div class="ft-right"><strong>CQ Dashboard, Post Sale - Outbound</strong><br>October 2026 · 90 Audits · 26 Sep – 25 Oct 2026<br>Auditor: <strong>Gourav M, Vignesh Y &amp; Dipannita</strong></div>
 </footer>
 
 <div id="modal-overlay"><div class="modal"><div class="modal-top"><button class="modal-close" onclick="closeModal()">✕</button><div id="m-name"></div><div id="m-role"></div><div id="m-metrics"></div></div><div id="m-body"></div></div></div>

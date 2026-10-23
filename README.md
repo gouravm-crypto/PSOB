@@ -1,6 +1,6 @@
-# CQ Dashboard — Post Sale - Outbound · September 2026
+# CQ Dashboard — Post Sale - Outbound · October 2026
 
-Interactive quality-audit dashboard for CaratLane's Post Sale - Outbound, covering **202 audits** across 8 agents for September 2026 (audit cycle 26 Aug – 25 Sep 2026).
+Interactive quality-audit dashboard for CaratLane's Post Sale - Outbound, covering **90 audits** across 8 agents for October 2026 (audit cycle 26 Sep – 25 Oct 2026).
 
 ## Files
 - `index.html` — main dashboard page
